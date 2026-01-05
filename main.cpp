@@ -20,7 +20,7 @@ int	main(int argc, char *argv[])
 {
 	if (argc < 2)
 	{
-		std::cerr << "\tPmergeMe: Error: Requires args: Sequence of positive intigers, one int per arg\n";
+		std::cerr << "\tford_johnson: Error: Requires args: Sequence of positive intigers, one int per arg\n";
 		return (1);
 	}
 
@@ -40,7 +40,7 @@ int	main(int argc, char *argv[])
 		if (num_str.find_first_not_of(radix) != std::string::npos || \
 			num_str.length() > 10)
 		{
-			std::cerr << "\tPmergeMe: Error: Invalid input format\n";
+			std::cerr << "\tford_johnson: Error: Invalid input format\n";
 			return (1);
 		}
 		init_stream << num_str << '\n';
@@ -48,7 +48,7 @@ int	main(int argc, char *argv[])
 		init_stream.ignore(1);
 		if (num < 0 || num > __INT_MAX__)
 		{
-			std::cerr << "\tPmergeMe: Error: Invalid int: <0 or >INT_MAX\n";
+			std::cerr << "\tford_johnson: Error: Invalid int: <0 or >INT_MAX\n";
 			return (1);
 		}
 		

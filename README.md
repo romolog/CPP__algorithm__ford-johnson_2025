@@ -1,7 +1,7 @@
 # Ford-Johnson algorithm (merge-insertion sort)
 
-I implemented a merge-insertion Ford-Johnson algorithm and compare vector and deque containers speed to sort: 
-This algorithm is interesting as it tries to minimize a number of comparisons which corresponds to increase speed of computing.
+I implemented the merge-insertion Ford-Johnson algorithm and compared sorting performance on vector and deque. 
+The algorithm minimizes comparisons to increase computation speed.
 
 Implemented features:
 <pre>
@@ -48,7 +48,7 @@ make;
 ./ford_johnson 2 1 3 4;
 ```
 
-### Run with 3000 unsorted integers
+### Run with 3,000 unsorted integers
 ```bash
 ./ford_johnson `shuf -r -i 1-1000 -n 3000 | tr "\n" " " `;
 ```

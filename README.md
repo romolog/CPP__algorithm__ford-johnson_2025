@@ -11,11 +11,14 @@ Implemented features:
 * Recursion:		The algorithm is implemented using recursive calls.
 
 * Algorithm:		Works for any number of unsorted elements.
+					
 					Recursion continues until 2–3 elements remain, which are sorted directly. 
-                	At this point, the main chain is formed, and unsorted elements from each pair 
-                	are inserted into the main chain using binary search, starting from the largest 
-                	index of the unsorted element down to the smallest. 
-                	The Jacobsthal sequence is used to determine the largest index 
+                	At this point, the main chain is formed, and unsorted elements 
+					from each pair are inserted into the main chain using binary search, 
+					starting from the largest index of the unsorted element 
+					down to the smallest. 
+                	
+					The Jacobsthal sequence is used to determine the largest index 
                 	of each unsorted element to be inserted into the main chain.
 
 * Benchmark:		Benchmarks are implemented for the Vector and Deque standard containers 

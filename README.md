@@ -5,8 +5,8 @@ This algorithm is interesting as it tries to minimize a number of comparisons wh
 
 Implemented features:
 <pre>
-* Sources:			Donald E. Knuth, The Art of Computer Programming, Vol. 3, Sect. 5.3.1.
-					Jacobsthal sequence
+* Sources:			1. Donald E. Knuth, The Art of Computer Programming, Vol. 3, Sect. 5.3.1.
+					2. Jacobsthal sequence
 
 * Recursion:		The algorithm is implemented using recursive calls.
 
